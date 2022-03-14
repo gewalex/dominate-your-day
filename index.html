@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <header class="bg-neutral-400">
+        <div>
+          <!-- <a href="https://www.vecteezy.com/vector-art/2335868-productivity-vector-icon"</a -->
+          <p class="text-left font-bold dark:text-white text-6xl text-zinc-900">Dominate Your Day</p>
+        </div>
+        <!-- <h1 class="app-title"><i class="fab fa-homepage"></i>Dominate Your Day</h1> -->
+          <p class="text-right font-bold dark:text-white text-xl dark:text-gray">The first and final stop for productive days</p>
+      </div>
+    </header>
+<!-- Container for  -->
+<!-- <div class="flex-row justify-space-between">
+    <div class ="col-4 col-md-4"> -->
+
+ <!-- <div class="container-fluid">
+     <div class="row"> -->
+      <div class = "grid grid-cols-1 gap-5 md:grid-cols-3" id="columns">
+
+        <div class="01">
+          <div class ="card">
+          <div class = "bg-sky-100">
+            <h3 class = "card-header text-uppercase text-center bg-info text-4xl text-black">Weather Dashbord</h3>
+                        <div class="card"> 
+                          <form id="city-form" class="card-body">
+                            <label class="form-label" for="cityname"></label>
+                            <input name="cityname" id="cityname" type="text" autofocus="true" class="form-input text-2xl" placeholder="Hartford"/>
+                            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full text-3xl">Search</button>
+                          </form>
+                        </div>
+                    
+                      <!-- render user request -->
+                      <div class="col-12 col-md-8">
+                        <h2 class="subtitle text-uppercase bg-info text-cyan-900">Current Weather Info for: <span id="weather-data-search"></span></h2>
+                        <div id="weather-data-container" class="list-group">
+                  
+                        </div>
+                      </div>
+              
+          </div>
+          </div>
+        </div>
+
+        <div class="02">
+          <div class="bg-sky-700">
+            <div class = "card">
+              <p class="text-center font-bold dark:text-white text-5xl text-slate-400">Top News Stories</p>
+              <div class="bg-sky-100 text-clip" id="card-2">
+              
+            </div>
+          </div>
+          </div>
+        </div>
+
+
+       
+         <!-- <div class = col-sm-4> -->
+           <div class="03">
+            <div class = "card" id="card-3">
+              <div class ="bg-sky-900">
+                    <div class="text-center font-bold dark:text-white text-5xl text-slate-400">
+                        <form id="task-form">
+                            <p class = "text-center font-bold dark:text-white text-5xl text-slate-400">To Do List</p>
+                            <form  id="task-form" class="card-body">
+
+                         <!-- <form id="task-form"> -->
+                    <div class="form-group">
+                      <input type="text" name="task-name" placeholder="Enter Task Name" />
+                    </div>
+                    <div class="form-group">
+                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full text-3xl" id="save-task" type="submit">Add Task</button>
+                      <!-- </button>
+                      <button class="btn btn-dark" id="save-task" type="submit">Add Task</button> -->
+                    </div>
+                  </form>
+                    </div>
+                <div class="page-content text-center font-bold dark:text-white text-3xl text-slate-200" id="page-content">
+                  <!-- Tasks To Do -->
+                  <section class="task-list-wrapper">
+                    <p class = "text-center font-bold dark:text-white text-3xl text-emerald-700">Tasks To Do</p>
+                      <ul class="task-list text-center font-bold dark:text-white text-2xl text-green" id="tasks-to-do"></ul>
+                  </section>
+              
+                  <!-- Tasks In Progress -->
+                  <section class="task-list-wrapper">
+                    <p class = "text-center font-bold dark:text-white text-3xl text-amber-200">Tasks In Progress</h2>
+                      <ul class="task-list text-center font-bold dark:text-white text-2xl text-black" id="tasks-in-progress"></ul>
+                  </section>
+              
+                  <!-- Tasks Completed -->
+                  <section class="task-list-wrapper">
+                    <p class = "text-center font-bold dark:text-white text-3xl text-black">Tasks Completed</h2>
+                    <ul class = "task-list text-center font-bold dark:text-white text-xl text-black" id="tasks-completed"></ul>
+                  </section>
+                </div>
+              </div>
+              </div>
+              
+                <!-- <script src="./assets/js/script.js"></script>
+            </body> -->
+            
+            </div>
+        </div>
+
+        
+
+  <script src="./assets/script.js"></script>
+</body>
+</html>
